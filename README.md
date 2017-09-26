@@ -4,7 +4,11 @@
 
 ### Install
 
-`npm install --save evolutions`
+To test install globally:
+`$ npm install -g evolutions`
+
+To use in another module:
+`$ npm install --save evolutions`
 
 ### Usage
 
