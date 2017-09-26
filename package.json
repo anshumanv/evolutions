@@ -1,0 +1,37 @@
+{
+  "name": "evolutions",
+  "version": "1.0.0",
+  "description": "A cli tool to get pokemon evolution chain.",
+  "bin": "cli.js",
+  "scripts": {
+    "test": "xo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anshumanv/pokemon-evolutions.git"
+  },
+  "keywords": [
+    "cli-app",
+    "pokemon",
+    "pocket",
+    "monster",
+    "cli",
+    "evolutions",
+    "chain"
+  ],
+  "author": "Anshuman Verma",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anshumanv/pokemon-evolutions/issues"
+  },
+  "homepage": "https://github.com/anshumanv/pokemon-evolutions#readme",
+  "dependencies": {
+    "deasync": "^0.1.10",
+    "meow": "^3.7.0",
+    "pokemanager": "^1.0.0",
+    "unique-random-array": "^1.0.0"
+  },
+  "devDependencies": {
+    "xo": "^0.18.2"
+  }
+}
