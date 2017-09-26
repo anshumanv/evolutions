@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anshumanv/pokemon-evolutions.git"
+    "url": "git+https://github.com/anshumanv/evolutions.git"
   },
   "keywords": [
     "cli-app",
@@ -22,9 +22,9 @@
   "author": "Anshuman Verma",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/anshumanv/pokemon-evolutions/issues"
+    "url": "https://github.com/anshumanv/evolutions/issues"
   },
-  "homepage": "https://github.com/anshumanv/pokemon-evolutions#readme",
+  "homepage": "https://github.com/anshumanv/evolutions#readme",
   "dependencies": {
     "deasync": "^0.1.10",
     "meow": "^3.7.0",
