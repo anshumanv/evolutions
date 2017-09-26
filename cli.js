@@ -39,6 +39,7 @@ if (cli.input.length === 0) {
 		if (Number.isInteger(pokemon)) {
 			pokemon = pokemons.getName(pokemon);
 		}
+		pokemon = pokemon.toLowerCase();
 		if (pokemons.exists(pokemon)) {
 			printEvolutionChain(pokemons.getEvolutionChain(pokemon));
 		}
