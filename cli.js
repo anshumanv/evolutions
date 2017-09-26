@@ -7,14 +7,14 @@ const pokemons = require('./');
 const cli = meow({
 	help: [
 		`
-		$ pokemon-evolution		// get random pokemon evolution
+		$ evolutions		// get random pokemon evolution
 		munchlax snorlax
 
-		$ pokemon-evolution 1 4	// get evolutions by pokemon ID
+		$ evolutions 1 4	// get evolutions by pokemon ID
 		bulbasaur ivysaur venusaur
 		charmander charmeleon charizard
 		
-		$ pokemon-evolution eevee 	// get evolutions by name
+		$ evolutions eevee 	// get evolutions by name
 		vaporeon jolteon flareon espeon umbreon leafeon glaceon sylveon
 		`
 	]
