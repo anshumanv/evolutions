@@ -4,10 +4,10 @@
 
 ### Install
 
-To test install globally:
+To test, install globally:  
 `$ npm install -g evolutions`
 
-To use in another module:
+To use in another module:  
 `$ npm install --save evolutions`
 
 ### Usage
