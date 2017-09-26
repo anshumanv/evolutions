@@ -46,7 +46,7 @@ Get pokemon ID form name.
 Check if the pokemon with a given name exists (not case sensitive).
 
 #### .getEvolutionChain(name: string): array
-Get an array containing the evolution chain of the pokemon.
+Get an array containing the evolution chain of a pokemon.
 
 
 ### License
