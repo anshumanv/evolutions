@@ -38,6 +38,9 @@ Get pokemon name form ID.
 #### .getId(name: string): number
 Get pokemon ID form name.
 
+#### .exists(name: string) boolean
+Check if the pokemon with a given name exists (not case sensitive).
+
 #### .getEvolutionChain(name: string): array
 Get an array containing the evolution chain of the pokemon.
 
