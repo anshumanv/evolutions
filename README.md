@@ -5,9 +5,24 @@
 ### Install
 
 To test, install globally:  
-`$ npm install -g evolutions`
+
+```sh
+$ npm install -g evolutions
+
+$ evolutions
+torchic combusken blaziken
+
+$ evolutions 1 4
+bulbasaur ivysaur venusaur
+charmander charmeleon charizard
+
+$ evolutions eevee mudkip
+vaporeon jolteon flareon espeon umbreon leafeon glaceon sylveon
+mudkip marshtomp swampert
+```
 
 To use in another module:  
+
 `$ npm install --save evolutions`
 
 ### Usage
