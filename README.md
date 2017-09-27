@@ -1,4 +1,4 @@
-# evolutions [![npm](https://img.shields.io/npm/dt/evolutions.svg)](https://www.npmjs.com/package/evolutions) [![npm](https://img.shields.io/npm/v/evolutions.svg)](https://www.npmjs.com/package/evolutions)
+# evolutions [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo) [![npm](https://img.shields.io/npm/dt/evolutions.svg)](https://www.npmjs.com/package/evolutions) [![npm](https://img.shields.io/npm/v/evolutions.svg)](https://www.npmjs.com/package/evolutions)
 
 > A cli tool to get pokemon evolution chain.
 
