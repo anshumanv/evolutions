@@ -1,4 +1,4 @@
-# evolutions
+# evolutions [![npm](https://img.shields.io/npm/dt/evolutions.svg)](https://www.npmjs.com/package/evolutions)
 
 > A cli tool to get pokemon evolution chain.
 
