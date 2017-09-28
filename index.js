@@ -1,5 +1,5 @@
 const uniqueRandomArray = require('unique-random-array');
-const pokemanager = require('pokemanager');
+const Pokemon = require('pokemanager').pokemon;
 
 const pokemons = require('./data/en');
 
@@ -32,7 +32,7 @@ exports.exists = name => {
 };
 
 exports.getEvolutionChain = name => {
-	const poke = new pokemanager.pokemon(name);
+	const poke = new Pokemon(name);
 
 	// Eevee is so special ;)
 	if (name === 'eevee') {
