@@ -2,6 +2,8 @@
 
 > A cli tool to get pokemon evolution chain.
 
+**NOTE -** Only supports pokemons upto 6th generation as of now. 
+
 ### Install
 
 To test, install globally:  
