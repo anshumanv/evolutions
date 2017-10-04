@@ -6,7 +6,9 @@ const pokemons = require('./data/en');
 exports.random = uniqueRandomArray(pokemons);
 
 // A helper function that converts to lowercase and trims whitespaces.
-function lower(str) { return str.toString().toLowerCase().match(/[^_\s\W]+/g).join(''); }
+function lower(str) {
+	return str.toString().toLowerCase().match(/[^_\s\W]+/g).join('');
+}
 
 exports.getName = id => {
 	const name = pokemons[id - 1];
@@ -25,7 +27,7 @@ exports.getId = name => {
 	if (index === -1) {
 		throw new Error(`Pokemon with name '${name}' doesn't exist`);
 	}
-	return index+1;
+	return index + 1;
 };
 
 exports.exists = name => {
