@@ -34,7 +34,7 @@ exports.exists = name => {
 	name = lower(name);
 	const id = pokemons.indexOf(name);
 	if (id === -1) {
-		throw new Error(`Pokemon with name '${name}' doesn't exist`);
+		return false;
 	}
 	return true;
 };
