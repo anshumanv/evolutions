@@ -1,4 +1,14 @@
-# evolutions [![Build Status](https://travis-ci.org/anshumanv/evolutions.svg?branch=master)](https://travis-ci.org/anshumanv/evolutions) [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo) [![npm](https://img.shields.io/npm/dt/evolutions.svg)](https://www.npmjs.com/package/evolutions) [![npm](https://img.shields.io/npm/v/evolutions.svg)](https://www.npmjs.com/package/evolutions)
+<p align="center">
+<img src="https://image.flaticon.com/icons/svg/188/188918.svg" align="center" width="150">
+</p>
+
+
+<h1 align="center">evolutions</h1>
+<p align="center">
+	<img src="https://img.shields.io/travis/anshumanv/evolutions.svg?style=for-the-badge" align="center">
+	<img src="https://img.shields.io/npm/dt/evolutions.svg?style=for-the-badge" align="center">
+	<img src="https://img.shields.io/npm/v/evolutions.svg?style=for-the-badge" align="center">
+</p>
 
 > A cli tool to get Pokémon evolution chain.
 
@@ -22,6 +32,7 @@ $ evolutions eevee mudkip
 vaporeon jolteon flareon espeon umbreon leafeon glaceon sylveon
 mudkip marshtomp swampert
 ```
+
 
 To use in another module:  
 
@@ -47,6 +58,7 @@ evolutions.exists('Moltres');
 evolution.getEvolutionChain('chimchar');
 //=> chimchar monferno infernape
 ```
+
 
 ### API
 
@@ -83,3 +95,5 @@ Get an array containing the evolution chain of a pokemon.
 ## Contribute
 
 Found a bug, please [create an issue](https://github.com/anshumanv/evolutions/issues/new)
+
+<div align="center">Icons made by <a href="https://www.flaticon.com/authors/roundicons-freebies" title="Roundicons Freebies">Roundicons Freebies</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>

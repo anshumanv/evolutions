@@ -27,11 +27,11 @@
   "homepage": "https://github.com/anshumanv/evolutions#readme",
   "dependencies": {
     "deasync": "^0.1.10",
-    "meow": "^3.7.0",
+    "meow": "^5.0.0",
     "pokemanager": "^1.0.0",
     "unique-random-array": "^1.0.0"
   },
   "devDependencies": {
-    "xo": "^0.18.2"
+    "xo": "^0.22.0"
   }
 }
